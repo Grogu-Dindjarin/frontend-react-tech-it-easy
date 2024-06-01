@@ -1,0 +1,66 @@
+/* App.css */
+
+.product-best-seller {
+    margin: 15px 0;
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-best-seller-image {
+    object-fit: contain;
+    width: 220px;
+    margin: 15px;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.product-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.product-item {
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.sold-products {
+    border: 1px solid #51A488;
+    color: #51A488;
+    background-color: #f1faf7;
+}
+
+.stocked-products {
+    border: 1px solid #206ba3;
+    color: #206ba3;
+    background-color: #D2E1EC;
+}
+
+.to-be-sold-products {
+    border: 1px solid #a30000;
+    color: #a30000;
+    background-color: #eccccc;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

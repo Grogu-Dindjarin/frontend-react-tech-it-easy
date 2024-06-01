@@ -11,4 +11,9 @@
 body {
   font-family: 'Zen Kaku Gothic New', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  padding: 2.5rem;
+}
+
+.icon {
+  width: 12px;
 }
