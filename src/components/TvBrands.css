@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.tv-article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.tv-image {
+    object-fit: contain;
+    width: 220px;
+    margin: 15px;
+}
